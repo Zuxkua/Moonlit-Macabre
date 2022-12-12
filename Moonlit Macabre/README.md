@@ -1,6 +1,6 @@
 -----MIDNIGHT MACABRE-----
 
-
+A HTML Canvas game made for fun.
 
 --[Controls]--
 
