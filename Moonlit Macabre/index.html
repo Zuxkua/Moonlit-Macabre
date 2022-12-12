@@ -1,0 +1,80 @@
+<head>
+  <title>Moonlit Macabre</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      font-family: 'Press Start 2P', cursive;
+    }
+  </style>
+  <link rel = "stylesheet" type="text/css" href="index.css">
+  <link rel = "preconnect" href="https://fonts.googleapis.com" />
+  <link rel = "preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href = "https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+    rel = "stylesheet"
+  />
+</head>
+<body>
+  <!-- red container div -->
+  <div style = "position: relative; display: inline-block">
+    <!-- smaller red container div -->
+    <div
+      style = "
+        position: absolute;
+        display: flex;
+        width: 100%;
+        align-items: center;
+        margin-top: 175px;
+        padding: 20px;
+      "
+    >
+      <!-- player1 health -->
+      <div
+        style = "
+          margin-left: 425px;
+          position: relative;
+          width: 100%;
+          display: flex;
+          justify-content: flex-end;
+          border-top: 4px solid purple;
+          border-left: 4px solid purple;
+          border-bottom: 4px solid purple;
+        "
+      >
+        <div style = "background-color: purple; height: 30px; width: 100%"></div>
+        <div id = "player1Health"></div>
+      </div>
+
+      <!-- timer -->
+      <div id = "timer"></div>
+
+      <!-- player2 health -->
+      <div
+        style = "
+          position: relative;
+          width: 100%;
+          border-top: 4px solid purple;
+          border-bottom: 4px solid purple;
+          border-right: 4px solid purple;
+        "
+      >
+        <div style = "background-color: purple; height: 30px"></div>
+        <div id = "player2Health"></div>
+      </div>
+      <div></div>
+    </div>
+    <div id = "text"></div>
+    <canvas></canvas>
+  </div>
+
+  <!-- gsap -->
+  <script
+    src = "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"
+    integrity = "sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ=="
+    crossorigin = "anonymous"
+    referrerpolicy = "no-referrer"
+  ></script>
+  <script src = "js/mechanics.js"></script>
+  <script src = "js/classes.js"></script>
+  <script src = "js/index.js"></script>
+</body>
