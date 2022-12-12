@@ -33,5 +33,7 @@ ArrowDown = Fast Fall
 --[Credits]--
 
 Programmer = https://github.com/Zuxkua (Me)
+
 Background = https://brullov.itch.io/
+
 Martial Hero & Martial Hero 2 = https://luizmelo.itch.io/
